@@ -1,0 +1,317 @@
+{
+  "id": "mobile-ai-developer-path",
+  "title": "Mobile AI Developer Path",
+  "goal": "Learn to add AI features (LLMs, on-device models) to Android and iOS apps, building a portfolio project and preparing for job interviews.",
+  "weeklyHours": 5,
+  "phases": [
+    {
+      "n": 0,
+      "title": "Introduction and Setup",
+      "goal": "Set up development environment and understand the basics of AI and mobile app development."
+    },
+    {
+      "n": 1,
+      "title": "Basics of Mobile App Development",
+      "goal": "Learn the fundamentals of Android and iOS app development using Swift and Kotlin."
+    },
+    {
+      "n": 2,
+      "title": "Introduction to AI and Machine Learning",
+      "goal": "Understand the basics of AI and machine learning, including LLMs and on-device models."
+    },
+    {
+      "n": 3,
+      "title": "Building an AI Feature for iOS",
+      "goal": "Create an AI-powered feature for an iOS app, focusing on integrating on-device models."
+    },
+    {
+      "n": 4,
+      "title": "Building an AI Feature for Android",
+      "goal": "Create an AI-powered feature for an Android app, focusing on integrating on-device models."
+    },
+    {
+      "n": 5,
+      "title": "Project and Portfolio Preparation",
+      "goal": "Prepare a polished portfolio project and practice for job interviews."
+    },
+    {
+      "n": 6,
+      "title": "Job Application and Interview Preparation",
+      "goal": "Apply for jobs and prepare for technical interviews."
+    }
+  ],
+  "targetRole": "Mobile AI developer",
+  "tasks": [
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 0,
+      "title": "Set up Development Environment",
+      "type": "setup",
+      "hours": 2,
+      "editor": "Browser",
+      "why": "Ensure the learner has the necessary tools and knowledge to start coding.",
+      "steps": [
+        "Install Android Studio",
+        "Install Xcode",
+        "Set up a playground folder for the portfolio project"
+      ],
+      "resources": [
+        {
+          "t": "Android Studio",
+          "u": "https://developer.android.com/studio"
+        },
+        {
+          "t": "Xcode",
+          "u": "https://developer.apple.com/xcode/"
+        }
+      ],
+      "doneWhen": "Development environment is set up and playground folder is created.",
+      "check": "The learner can open Android Studio and Xcode.",
+      "updatedAt": "2026-10-22",
+      "updateNote": "",
+      "lessonKind": "reading"
+    },
+    {
+      "order": 2,
+      "source": "generator",
+      "phase": 0,
+      "title": "Understand Basic Mobile App Development",
+      "type": "learn",
+      "hours": 2,
+      "editor": "Browser",
+      "why": "Gain a foundational understanding of app development.",
+      "steps": [
+        "Read the official Android documentation",
+        "Read the official iOS documentation"
+      ],
+      "resources": [
+        {
+          "t": "Android Developer",
+          "u": "https://developer.android.com/"
+        },
+        {
+          "t": "Apple Developer",
+          "u": "https://developer.apple.com/"
+        }
+      ],
+      "doneWhen": "The learner understands the basic structure and workflow of Android and iOS app development.",
+      "check": "The learner can explain the basic structure of an Android and iOS app.",
+      "updatedAt": "2026-10-22",
+      "updateNote": "",
+      "lessonKind": "reading"
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 1,
+      "title": "Learn Swift",
+      "type": "learn",
+      "hours": 2,
+      "editor": "Browser",
+      "why": "Learn the Swift programming language for iOS app development.",
+      "steps": [
+        "Read Swift official documentation",
+        "Complete basic Swift exercises"
+      ],
+      "resources": [
+        {
+          "t": "Swift for iOS",
+          "u": "https://developer.apple.com/swift"
+        }
+      ],
+      "doneWhen": "The learner can write basic Swift code.",
+      "check": "The learner can write and run a simple Swift program.",
+      "updatedAt": "2026-10-22",
+      "updateNote": "",
+      "lessonKind": "coding"
+    },
+    {
+      "order": 2,
+      "source": "generator",
+      "phase": 1,
+      "title": "Learn Kotlin",
+      "type": "learn",
+      "hours": 2,
+      "editor": "Browser",
+      "why": "Learn the Kotlin programming language for Android app development.",
+      "steps": [
+        "Read Kotlin official documentation",
+        "Complete basic Kotlin exercises"
+      ],
+      "resources": [
+        {
+          "t": "Kotlin for Android",
+          "u": "https://kotlinlang.org/docs/android"
+        }
+      ],
+      "doneWhen": "The learner can write basic Kotlin code.",
+      "check": "The learner can write and run a simple Kotlin program.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 2,
+      "title": "Introduction to AI and Machine Learning",
+      "type": "learn",
+      "hours": 2,
+      "editor": "Browser",
+      "why": "Understand the basics of AI and machine learning.",
+      "steps": [
+        "Read AI and machine learning articles",
+        "Watch introductory videos on AI and machine learning"
+      ],
+      "resources": [
+        {
+          "t": "AI and ML Basics",
+          "u": "https://www.google.com/search?q=ai+and+ml+basics"
+        }
+      ],
+      "doneWhen": "The learner has a basic understanding of AI and machine learning.",
+      "check": "The learner can explain the concept of a neural network.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 2,
+      "source": "generator",
+      "phase": 2,
+      "title": "Introduction to LLMs",
+      "type": "learn",
+      "hours": 2,
+      "editor": "Browser",
+      "why": "Understand the basics of LLMs and their applications.",
+      "steps": [
+        "Read LLM articles",
+        "Watch introductory videos on LLMs"
+      ],
+      "resources": [
+        {
+          "t": "LLM Overview",
+          "u": "https://www.tensorflow.org/lite/guide/inference#language_model"
+        }
+      ],
+      "doneWhen": "The learner has a basic understanding of LLMs.",
+      "check": "The learner can explain the concept of a language model.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 3,
+      "title": "Integrate LLM in iOS App",
+      "type": "build",
+      "hours": 4,
+      "editor": "Xcode",
+      "why": "Integrate an LLM feature in an iOS app.",
+      "steps": [
+        "Create a new iOS project",
+        "Add a text input and output view",
+        "Integrate an on-device LLM model",
+        "Test the app with sample inputs"
+      ],
+      "resources": [
+        {
+          "t": "Swift for iOS",
+          "u": "https://developer.apple.com/swift"
+        },
+        {
+          "t": "LLM Integration",
+          "u": "https://www.tensorflow.org/lite/guide/inference#language_model"
+        }
+      ],
+      "doneWhen": "The app can take user input, process it with an LLM, and display the output.",
+      "check": "The learner can run the app and see the LLM in action.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 4,
+      "title": "Integrate LLM in Android App",
+      "type": "build",
+      "hours": 4,
+      "editor": "Android Studio",
+      "why": "Integrate an LLM feature in an Android app.",
+      "steps": [
+        "Create a new Android project",
+        "Add a text input and output view",
+        "Integrate an on-device LLM model",
+        "Test the app with sample inputs"
+      ],
+      "resources": [
+        {
+          "t": "Kotlin for Android",
+          "u": "https://kotlinlang.org/docs/android"
+        },
+        {
+          "t": "LLM Integration",
+          "u": "https://www.tensorflow.org/lite/guide/inference#language_model"
+        }
+      ],
+      "doneWhen": "The app can take user input, process it with an LLM, and display the output.",
+      "check": "The learner can run the app and see the LLM in action.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 5,
+      "title": "Prepare Portfolio Project",
+      "type": "practice",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "Prepare a polished portfolio project for job interviews.",
+      "steps": [
+        "Refine the portfolio project",
+        "Add documentation and tests",
+        "Prepare a demo video"
+      ],
+      "resources": [
+        {
+          "t": "GitHub Documentation",
+          "u": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/documenting-your-repository"
+        }
+      ],
+      "doneWhen": "The portfolio project is polished and ready for presentation.",
+      "check": "The learner can demonstrate the portfolio project to a peer.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 6,
+      "title": "Job Application and Interview Preparation",
+      "type": "career",
+      "hours": 4,
+      "editor": "Browser",
+      "why": "Prepare for job interviews and application.",
+      "steps": [
+        "Create a LinkedIn profile",
+        "Practice common interview questions",
+        "Review job postings",
+        "Network with professionals"
+      ],
+      "resources": [
+        {
+          "t": "LinkedIn",
+          "u": "https://www.linkedin.com/"
+        },
+        {
+          "t": "Job Posting Examples",
+          "u": "https://www.indeed.com/career-advice/finding-a-job/sample-job-descriptions"
+        }
+      ],
+      "doneWhen": "The learner has a polished LinkedIn profile and a list of practice questions.",
+      "check": "The learner can answer a set of common interview questions.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "id": "typescript-and-node-js-for-rest-apis",
+  "title": "TypeScript and Node.js for REST APIs",
+  "goal": "Build a REST API portfolio project and gain the skills needed for a backend developer role.",
+  "weeklyHours": 5,
+  "phases": [
+    {
+      "n": 0,
+      "title": "Setup Development Environment",
+      "goal": "Install and configure necessary tools and editors."
+    },
+    {
+      "n": 1,
+      "title": "Learn TypeScript Basics",
+      "goal": "Understand TypeScript syntax and type system."
+    },
+    {
+      "n": 2,
+      "title": "Build a Simple REST API",
+      "goal": "Create a basic REST API using Node.js and Express."
+    },
+    {
+      "n": 3,
+      "title": "Implement API Testing",
+      "goal": "Add unit and integration tests to your API."
+    },
+    {
+      "n": 4,
+      "title": "Refactor and Optimize",
+      "goal": "Refactor the API and optimize for performance."
+    },
+    {
+      "n": 5,
+      "title": "Portfolio and Job Prep",
+      "goal": "Prepare your portfolio and practice job interview formats."
+    }
+  ],
+  "targetRole": "Backend developer",
+  "tasks": [
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 0,
+      "title": "Install Node.js and VS Code",
+      "type": "setup",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "Get the development environment ready.",
+      "steps": [
+        "Download and install Node.js",
+        "Install VS Code",
+        "Configure settings in VS Code"
+      ],
+      "resources": [
+        {
+          "t": "Node.js Documentation",
+          "u": "https://nodejs.org/en/"
+        },
+        {
+          "t": "VS Code Installation Guide",
+          "u": "https://code.visualstudio.com/docs/setup/setup-overview"
+        }
+      ],
+      "doneWhen": "Node.js and VS Code are installed and configured.",
+      "check": "Running a simple Node.js script in VS Code.",
+      "updatedAt": "2026-10-22",
+      "updateNote": "",
+      "lessonKind": "reading"
+    },
+    {
+      "order": 2,
+      "source": "generator",
+      "phase": 0,
+      "title": "Set Up a New Node.js Project",
+      "type": "setup",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "Create a project structure for the REST API.",
+      "steps": [
+        "Create a new Node.js project folder",
+        "Initialize a Node.js project with npm",
+        "Install Express using npm"
+      ],
+      "resources": [
+        {
+          "t": "Node.js Project Setup",
+          "u": "https://nodejs.org/en/docs/guides/nodejs-application-development/"
+        },
+        {
+          "t": "Express Framework",
+          "u": "https://expressjs.com/"
+        }
+      ],
+      "doneWhen": "A basic project structure with Express is set up.",
+      "check": "Running the project in VS Code.",
+      "updatedAt": "2026-10-22",
+      "updateNote": "",
+      "lessonKind": "reading"
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 1,
+      "title": "Understand TypeScript",
+      "type": "learn",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "Learn TypeScript syntax and type definitions.",
+      "steps": [
+        "Read the TypeScript documentation",
+        "Try basic TypeScript syntax in VS Code"
+      ],
+      "resources": [
+        {
+          "t": "TypeScript Documentation",
+          "u": "https://www.typescriptlang.org/docs/home.html"
+        },
+        {
+          "t": "TypeScript Handbook",
+          "u": "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html"
+        }
+      ],
+      "doneWhen": "Familiar with TypeScript syntax and type definitions.",
+      "check": "Writing and compiling a simple TypeScript script.",
+      "updatedAt": "2026-10-22",
+      "updateNote": "",
+      "lessonKind": "reading"
+    },
+    {
+      "order": 2,
+      "source": "generator",
+      "phase": 1,
+      "title": "Implement a TypeScript Type",
+      "type": "practice",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "Apply TypeScript types to API requests and responses.",
+      "steps": [
+        "Define a type for API request body",
+        "Use the type in a route handler"
+      ],
+      "resources": [
+        {
+          "t": "TypeScript Documentation",
+          "u": "https://www.typescriptlang.org/docs/home.html"
+        },
+        {
+          "t": "Express Type Definitions",
+          "u": "https://www.typescriptlang.org/docs/handbook/expressions.html"
+        }
+      ],
+      "doneWhen": "A route handler using TypeScript types is implemented.",
+      "check": "Running the route handler with and without correct input.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 2,
+      "title": "Build a REST API",
+      "type": "practice",
+      "hours": 4,
+      "editor": "VS Code",
+      "why": "Create a REST API with multiple endpoints.",
+      "steps": [
+        "Define API routes and handlers",
+        "Implement CRUD operations",
+        "Add middleware for authentication (optional)"
+      ],
+      "resources": [
+        {
+          "t": "Express Route Documentation",
+          "u": "https://expressjs.com/en/guide/routing.html"
+        },
+        {
+          "t": "Authentication with Express",
+          "u": "https://www.npmjs.com/package/express-jwt"
+        }
+      ],
+      "doneWhen": "A REST API with multiple CRUD endpoints is built.",
+      "check": "Running the API and testing endpoints with Postman.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 3,
+      "title": "Test the API",
+      "type": "practice",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "Add unit and integration tests to ensure API reliability.",
+      "steps": [
+        "Install a testing framework like Mocha",
+        "Write unit tests for API routes",
+        "Write integration tests for API functionality"
+      ],
+      "resources": [
+        {
+          "t": "Mocha Documentation",
+          "u": "https://mochajs.org/"
+        },
+        {
+          "t": " chai Documentation",
+          "u": "https://www.chaijs.com/"
+        }
+      ],
+      "doneWhen": "The API has comprehensive unit and integration tests.",
+      "check": "Running tests and verifying coverage.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 4,
+      "title": "Optimize and Refactor",
+      "type": "practice",
+      "hours": 4,
+      "editor": "VS Code",
+      "why": "Improve the API's performance and maintainability.",
+      "steps": [
+        "Refactor API routes for better structure",
+        "Optimize database queries",
+        "Implement logging for debugging"
+      ],
+      "resources": [
+        {
+          "t": "Express Best Practices",
+          "u": "https://expressjs.com/en/guide/best-practice.html"
+        },
+        {
+          "t": "Logging in Node.js",
+          "u": "https://www.npmjs.com/package/winston"
+        }
+      ],
+      "doneWhen": "The API is optimized and refactored for better performance and maintainability.",
+      "check": "Measuring performance improvements and verifying refactored code.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 5,
+      "title": "Prepare Portfolio and CV",
+      "type": "career",
+      "hours": 4,
+      "editor": "VS Code",
+      "why": "Prepare a professional portfolio and CV.",
+      "steps": [
+        "Document the project in a README",
+        "Create a professional CV",
+        "Add a link to the portfolio on the CV"
+      ],
+      "resources": [
+        {
+          "t": "Create a README",
+          "u": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#readme"
+        },
+        {
+          "t": "Professional CV Examples",
+          "u": "https://www.glassdoor.com/blog/professional-cv-examples/"
+        }
+      ],
+      "doneWhen": "A professional README and CV are created.",
+      "check": "A portfolio project README and a professional CV are ready.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 2,
+      "source": "generator",
+      "phase": 5,
+      "title": "Practice Live Coding",
+      "type": "practice",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "Prepare for live coding interviews.",
+      "steps": [
+        "Practice coding under time pressure",
+        "Record and review practice sessions"
+      ],
+      "resources": [
+        {
+          "t": "LeetCode",
+          "u": "https://leetcode.com/"
+        },
+        {
+          "t": "HackerRank",
+          "u": "https://www.hackerrank.com/"
+        }
+      ],
+      "doneWhen": "A set of practice live coding sessions are completed.",
+      "check": "A recording of a live coding session.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 3,
+      "source": "generator",
+      "phase": 5,
+      "title": "Practice System Design",
+      "type": "practice",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "Prepare for system design interviews.",
+      "steps": [
+        "Practice common system design questions",
+        "Write a mock interview script"
+      ],
+      "resources": [
+        {
+          "t": "System Design Interview Guide",
+          "u": "https://www.educative.io/courses/grokking-the-system-design-interview"
+        },
+        {
+          "t": "System Design Interview Questions",
+          "u": "https://www.nerdyplanet.com/system-design-interview-questions"
+        }
+      ],
+      "doneWhen": "A set of practice system design questions is completed.",
+      "check": "A mock interview script.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 4,
+      "source": "generator",
+      "phase": 5,
+      "title": "Practice Take-Home Interviews",
+      "type": "practice",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "Prepare for take-home coding interviews.",
+      "steps": [
+        "Practice coding challenges",
+        "Review code with a peer"
+      ],
+      "resources": [
+        {
+          "t": "LeetCode",
+          "u": "https://leetcode.com/"
+        },
+        {
+          "t": "GitHub",
+          "u": "https://github.com/"
+        }
+      ],
+      "doneWhen": "A set of practice take-home coding challenges is completed.",
+      "check": "A peer-reviewed code snippet.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 5,
+      "source": "generator",
+      "phase": 5,
+      "title": "Apply for Jobs",
+      "type": "career",
+      "hours": 2,
+      "editor": "Browser",
+      "why": "Submit applications to job listings.",
+      "steps": [
+        "Search for job listings on job boards",
+        "Submit applications to selected positions"
+      ],
+      "resources": [
+        {
+          "t": "Indeed",
+          "u": "https://www.indeed.com/"
+        },
+        {
+          "t": "LinkedIn Jobs",
+          "u": "https://www.linkedin.com/jobs/"
+        }
+      ],
+      "doneWhen": "Job applications are submitted.",
+      "check": "A list of applied job positions.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    }
+  ]
+}

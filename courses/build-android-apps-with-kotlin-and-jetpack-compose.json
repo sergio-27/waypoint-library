@@ -1,0 +1,549 @@
+{
+  "id": "build-android-apps-with-kotlin-and-jetpack-compose",
+  "title": "Build Android Apps with Kotlin and Jetpack Compose",
+  "goal": "Become a job-ready junior Android developer, focusing on Kotlin and Jetpack Compose, with a polished project portfolio.",
+  "weeklyHours": 6,
+  "phases": [
+    {
+      "n": 0,
+      "title": "Introduction and Setup",
+      "goal": "Set up the development environment and understand the basics of Kotlin and Jetpack Compose."
+    },
+    {
+      "n": 1,
+      "title": "Core Kotlin Concepts",
+      "goal": "Master essential Kotlin syntax and constructs."
+    },
+    {
+      "n": 2,
+      "title": "Jetpack Compose Basics",
+      "goal": "Learn the fundamentals of Jetpack Compose for building user interfaces."
+    },
+    {
+      "n": 3,
+      "title": "Intermediate Jetpack Compose",
+      "goal": "Explore more advanced features of Jetpack Compose and build a small application."
+    },
+    {
+      "n": 4,
+      "title": "Project Development and Polishing",
+      "goal": "Develop a portfolio project and refine its functionality and user experience."
+    },
+    {
+      "n": 5,
+      "title": "Job Preparation",
+      "goal": "Prepare for job interviews, optimize the portfolio project, and apply for junior Android developer positions."
+    }
+  ],
+  "targetRole": "Junior Android developer",
+  "tasks": [
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 0,
+      "title": "Install Android Studio and Kotlin Plugin",
+      "type": "setup",
+      "hours": 1,
+      "editor": "Android Studio",
+      "why": "Essential for developing Android apps.",
+      "steps": [
+        "Download and install Android Studio from https://developer.android.com/studio",
+        "Enable the Kotlin plugin in Android Studio settings."
+      ],
+      "resources": [],
+      "doneWhen": "Android Studio is installed and Kotlin plugin is enabled.",
+      "check": "Verify installation by opening a sample Kotlin project.",
+      "updatedAt": "2026-10-22",
+      "updateNote": "",
+      "lessonKind": "coding"
+    },
+    {
+      "order": 2,
+      "source": "generator",
+      "phase": 0,
+      "title": "Set Up Git and Version Control",
+      "type": "setup",
+      "hours": 1,
+      "editor": "Terminal",
+      "why": "Important for managing code changes and collaborating.",
+      "steps": [
+        "Install Git from https://git-scm.com/downloads",
+        "Set up a GitHub or GitLab account",
+        "Create a new repository and clone it to your local machine"
+      ],
+      "resources": [
+        {
+          "t": "Git documentation",
+          "u": "https://git-scm.com/docs"
+        }
+      ],
+      "doneWhen": "You have cloned the repository and can push and pull code.",
+      "check": "Create a new file in the repository and commit it.",
+      "updatedAt": "2026-10-22",
+      "updateNote": "",
+      "lessonKind": "reading"
+    },
+    {
+      "order": 3,
+      "source": "generator",
+      "phase": 0,
+      "title": "Understand Basic Android Architecture",
+      "type": "learn",
+      "hours": 2,
+      "editor": "Browser",
+      "why": "Key to building Android apps efficiently.",
+      "steps": [
+        "Read the official Android Architecture documentation: https://developer.android.com/topic/libraries/architecture",
+        "Watch a video on MVVM architecture in Android: https://www.youtube.com/watch?v=482L6z7oL3k"
+      ],
+      "resources": [
+        {
+          "t": "Android Architecture Components",
+          "u": "https://developer.android.com/topic/libraries/architecture"
+        },
+        {
+          "t": "MVVM Architecture in Android",
+          "u": "https://www.youtube.com/watch?v=482L6z7oL3k"
+        }
+      ],
+      "doneWhen": "You understand the basic concepts of MVVM and Android Architecture Components.",
+      "check": "Write a brief summary of the key takeaways.",
+      "updatedAt": "2026-10-22",
+      "updateNote": "",
+      "lessonKind": "reading"
+    },
+    {
+      "order": 4,
+      "source": "generator",
+      "phase": 0,
+      "title": "Practice Basic Kotlin Syntax",
+      "type": "practice",
+      "hours": 3,
+      "editor": "VS Code",
+      "why": "Master the basics of Kotlin, which is used in Jetpack Compose.",
+      "steps": [
+        "Create a simple Kotlin script with basic syntax, variables, and functions.",
+        "Run the script in the terminal and verify the output.",
+        "Add basic control structures like if-else and loops to the script."
+      ],
+      "resources": [
+        {
+          "t": "Kotlin Official Documentation",
+          "u": "https://kotlinlang.org/docs"
+        },
+        {
+          "t": "Kotlin Syntax Guide",
+          "u": "https://kotlinlang.org/docs/tutorials/kotlin-for-java-devs.html"
+        }
+      ],
+      "doneWhen": "You can write and run basic Kotlin scripts.",
+      "check": "Run a script with functions, variables, and control structures.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 1,
+      "title": "Learn Basic Kotlin Programming",
+      "type": "learn",
+      "hours": 4,
+      "editor": "VS Code",
+      "why": "Master Kotlin syntax and programming concepts.",
+      "steps": [
+        "Read the official Kotlin documentation on data types and expressions: https://kotlinlang.org/docs/data-types.html",
+        "Read the official documentation on control structures: https://kotlinlang.org/docs/control-flow.html"
+      ],
+      "resources": [
+        {
+          "t": "Kotlin Data Types and Expressions",
+          "u": "https://kotlinlang.org/docs/data-types.html"
+        },
+        {
+          "t": "Kotlin Control Flow",
+          "u": "https://kotlinlang.org/docs/control-flow.html"
+        }
+      ],
+      "doneWhen": "You understand Kotlin data types and control flow.",
+      "check": "Create a small Kotlin script with data types, expressions, and control structures.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 2,
+      "source": "generator",
+      "phase": 1,
+      "title": "Practice Kotlin Programming",
+      "type": "practice",
+      "hours": 3,
+      "editor": "VS Code",
+      "why": "Apply what you learned about Kotlin to real-world problems.",
+      "steps": [
+        "Create a script to calculate the factorial of a number using recursion.",
+        "Create a script to reverse a string using loops and string manipulation."
+      ],
+      "resources": [
+        {
+          "t": "Kotlin Official Documentation",
+          "u": "https://kotlinlang.org/docs"
+        },
+        {
+          "t": "Kotlin Programming Examples",
+          "u": "https://www.baeldung.com/kotlin"
+        }
+      ],
+      "doneWhen": "You can write and run Kotlin scripts that solve real-world problems.",
+      "check": "Run scripts for factorial and string reversal.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 3,
+      "source": "generator",
+      "phase": 1,
+      "title": "Learn Jetpack Compose Basics",
+      "type": "learn",
+      "hours": 3,
+      "editor": "VS Code",
+      "why": "Understand the basics of Jetpack Compose and its components.",
+      "steps": [
+        "Read the official Jetpack Compose documentation: https://developer.android.com/jetpack/compose",
+        "Watch a tutorial on creating your first Jetpack Compose app: https://www.youtube.com/watch?v=kP78XfXUx0s"
+      ],
+      "resources": [
+        {
+          "t": "Jetpack Compose Official Documentation",
+          "u": "https://developer.android.com/jetpack/compose"
+        },
+        {
+          "t": "Creating Your First Jetpack Compose App",
+          "u": "https://www.youtube.com/watch?v=kP78XfXUx0s"
+        }
+      ],
+      "doneWhen": "You understand the basic concepts of Jetpack Compose and can create a simple app.",
+      "check": "Run a simple Jetpack Compose app in the Android emulator.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 2,
+      "title": "Build a Basic Jetpack Compose UI",
+      "type": "build",
+      "hours": 4,
+      "editor": "VS Code",
+      "why": "Gain hands-on experience with Jetpack Compose by building a simple UI.",
+      "steps": [
+        "Create a new Android project in Android Studio using Jetpack Compose.",
+        "Build a UI with basic components like Text, Button, and Box.",
+        "Run the app on an emulator and test the UI."
+      ],
+      "resources": [
+        {
+          "t": "Jetpack Compose Official Documentation",
+          "u": "https://developer.android.com/jetpack/compose"
+        }
+      ],
+      "doneWhen": "You have a basic Jetpack Compose UI running on the emulator.",
+      "check": "Run the app and verify the UI components work as expected.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 2,
+      "source": "generator",
+      "phase": 2,
+      "title": "Add Interactivity to Jetpack Compose UI",
+      "type": "practice",
+      "hours": 3,
+      "editor": "VS Code",
+      "why": "Learn to add interactivity to Jetpack Compose UIs.",
+      "steps": [
+        "Add a click event to a Button component.",
+        "Use state and side effects to change the UI dynamically."
+      ],
+      "resources": [
+        {
+          "t": "Jetpack Compose Official Documentation",
+          "u": "https://developer.android.com/jetpack/compose"
+        }
+      ],
+      "doneWhen": "You can add interactivity to a Jetpack Compose UI.",
+      "check": "Run an app with dynamic UI changes based on user interactions.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 3,
+      "source": "generator",
+      "phase": 2,
+      "title": "Learn Jetpack Compose Layouts",
+      "type": "learn",
+      "hours": 3,
+      "editor": "VS Code",
+      "why": "Master the layout system in Jetpack Compose.",
+      "steps": [
+        "Read the official documentation on Jetpack Compose Layouts: https://developer.android.com/jetpack/compose/layouts",
+        "Watch a tutorial on using layouts in Jetpack Compose: https://www.youtube.com/watch?v=482L6z7oL3k"
+      ],
+      "resources": [
+        {
+          "t": "Jetpack Compose Layouts Official Documentation",
+          "u": "https://developer.android.com/jetpack/compose/layouts"
+        },
+        {
+          "t": "Using Layouts in Jetpack Compose",
+          "u": "https://www.youtube.com/watch?v=482L6z7oL3k"
+        }
+      ],
+      "doneWhen": "You understand the layout system in Jetpack Compose and can use it to design UIs.",
+      "check": "Create a UI with multiple layouts and components.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 3,
+      "title": "Build a More Complex Jetpack Compose UI",
+      "type": "build",
+      "hours": 5,
+      "editor": "VS Code",
+      "why": "Develop a more complex Jetpack Compose UI for a demo application.",
+      "steps": [
+        "Design a UI with multiple screens and components.",
+        "Implement navigation between screens using Jetpack Compose.",
+        "Add state management to the UI components."
+      ],
+      "resources": [
+        {
+          "t": "Jetpack Compose Official Documentation",
+          "u": "https://developer.android.com/jetpack/compose"
+        }
+      ],
+      "doneWhen": "You have a complex Jetpack Compose UI running on the emulator.",
+      "check": "Run the app and verify the navigation and state management work as expected.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 2,
+      "source": "generator",
+      "phase": 3,
+      "title": "Optimize Jetpack Compose UI Performance",
+      "type": "practice",
+      "hours": 3,
+      "editor": "VS Code",
+      "why": "Learn to optimize Jetpack Compose UIs for performance.",
+      "steps": [
+        "Use the Profiler tool in Android Studio to identify performance bottlenecks.",
+        "Apply optimizations to improve the performance of the UI."
+      ],
+      "resources": [
+        {
+          "t": "Android Studio Profiler",
+          "u": "https://developer.android.com/studio/profile"
+        }
+      ],
+      "doneWhen": "You can identify and optimize performance issues in Jetpack Compose UIs.",
+      "check": "Run the app with performance optimizations applied and verify the UI works smoothly.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 3,
+      "source": "generator",
+      "phase": 3,
+      "title": "Learn Jetpack Compose Animation",
+      "type": "learn",
+      "hours": 3,
+      "editor": "VS Code",
+      "why": "Master animations in Jetpack Compose.",
+      "steps": [
+        "Read the official documentation on Jetpack Compose Animations: https://developer.android.com/jetpack/compose/animation",
+        "Watch a tutorial on using animations in Jetpack Compose: https://www.youtube.com/watch?v=482L6z7oL3k"
+      ],
+      "resources": [
+        {
+          "t": "Jetpack Compose Animations Official Documentation",
+          "u": "https://developer.android.com/jetpack/compose/animation"
+        },
+        {
+          "t": "Using Animations in Jetpack Compose",
+          "u": "https://www.youtube.com/watch?v=482L6z7oL3k"
+        }
+      ],
+      "doneWhen": "You understand the basics of Jetpack Compose animations and can create animated UIs.",
+      "check": "Create a UI with basic animations.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 4,
+      "title": "Develop a Portfolio Project",
+      "type": "build",
+      "hours": 8,
+      "editor": "VS Code",
+      "why": "Create a polished portfolio project to showcase skills.",
+      "steps": [
+        "Choose a simple app idea and design the UI.",
+        "Implement the UI and functionality in Jetpack Compose.",
+        "Add state management and navigation to the app.",
+        "Optimize the app for performance and user experience."
+      ],
+      "resources": [
+        {
+          "t": "Android Studio and Jetpack Compose",
+          "u": "https://developer.android.com/jetpack/compose"
+        }
+      ],
+      "doneWhen": "You have a fully functional and polished Jetpack Compose app.",
+      "check": "Run the app and verify all features work as intended.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 5,
+      "title": "Prepare CV and Portfolio",
+      "type": "career",
+      "hours": 2,
+      "editor": "Browser",
+      "why": "Create a strong CV and portfolio to impress potential employers.",
+      "steps": [
+        "Write a CV focusing on your Android development and Jetpack Compose skills.",
+        "Prepare a portfolio with your Jetpack Compose project."
+      ],
+      "resources": [
+        {
+          "t": "CV Examples",
+          "u": "https://www.career.advice/cv-examples"
+        },
+        {
+          "t": "Portfolio Tips",
+          "u": "https://www.webfx.com/web-development/resources/how-to-create-a-portfolio-website/"
+        }
+      ],
+      "doneWhen": "Your CV and portfolio are complete and polished.",
+      "check": "Review your CV and portfolio for accuracy and completeness.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 2,
+      "source": "generator",
+      "phase": 5,
+      "title": "Practice Live Coding Interview",
+      "type": "practice",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "Prepare for live coding interviews commonly used in junior Android developer positions.",
+      "steps": [
+        "Create a mock live coding session with a friend or mentor.",
+        "Practice solving coding problems related to Kotlin and Jetpack Compose."
+      ],
+      "resources": [
+        {
+          "t": "Live Coding Tips",
+          "u": "https://www.toptal.com/software-engineer/live-coding-interview"
+        },
+        {
+          "t": "Kotlin and Jetpack Compose Problems",
+          "u": "https://www.hackerrank.com/domains/tag/kotlin"
+        }
+      ],
+      "doneWhen": "You can confidently solve live coding problems related to Kotlin and Jetpack Compose.",
+      "check": "Run and test your solutions in a mock live coding session.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 3,
+      "source": "generator",
+      "phase": 5,
+      "title": "Prepare for System Design Interview",
+      "type": "career",
+      "hours": 2,
+      "editor": "Browser",
+      "why": "Prepare for system design interviews, which may be part of the hiring process.",
+      "steps": [
+        "Read system design interview questions and prepare answers.",
+        "Practice drawing and explaining system designs on paper or a whiteboard."
+      ],
+      "resources": [
+        {
+          "t": "System Design Interview Questions",
+          "u": "https://www.educative.io/courses/grokking-the-system-design-interview"
+        },
+        {
+          "t": "System Design Interview Tips",
+          "u": "https://www.toptal.com/software-engineer/system-design-interview"
+        }
+      ],
+      "doneWhen": "You have prepared answers to common system design interview questions.",
+      "check": "Review and practice your answers to common system design interview questions.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 4,
+      "source": "generator",
+      "phase": 5,
+      "title": "Prepare for Take-Home Interview",
+      "type": "career",
+      "hours": 2,
+      "editor": "Browser",
+      "why": "Prepare for take-home coding assignments, which may be part of the hiring process.",
+      "steps": [
+        "Practice solving coding problems related to Kotlin and Jetpack Compose.",
+        "Read take-home interview tips and best practices."
+      ],
+      "resources": [
+        {
+          "t": "Take-Home Coding Interview Tips",
+          "u": "https://www.toptal.com/software-engineer/take-home-coding-interview"
+        },
+        {
+          "t": "Kotlin and Jetpack Compose Problems",
+          "u": "https://www.hackerrank.com/domains/tag/kotlin"
+        }
+      ],
+      "doneWhen": "You have prepared for take-home coding interviews.",
+      "check": "Practice solving coding problems and review take-home interview tips.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 5,
+      "source": "generator",
+      "phase": 5,
+      "title": "Apply for Junior Android Developer Positions",
+      "type": "career",
+      "hours": 2,
+      "editor": "Browser",
+      "why": "Submit applications and interviews for junior Android developer positions.",
+      "steps": [
+        "Search for junior Android developer job openings.",
+        "Apply to relevant positions and prepare for interviews."
+      ],
+      "resources": [
+        {
+          "t": "Job Search Tips",
+          "u": "https://www.career.advice/job-search-tips"
+        },
+        {
+          "t": "Job Boards",
+          "u": "https://www.indeed.com"
+        }
+      ],
+      "doneWhen": "You have submitted applications and prepared for interviews.",
+      "check": "Submit applications and prepare for interviews.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    }
+  ]
+}

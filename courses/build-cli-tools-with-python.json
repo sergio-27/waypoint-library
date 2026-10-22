@@ -1,0 +1,426 @@
+{
+  "id": "build-cli-tools-with-python",
+  "title": "Build CLI Tools with Python",
+  "goal": "Learn Python fundamentals and build a portfolio project to become job-ready for a Junior Python Developer role.",
+  "weeklyHours": 4,
+  "phases": [
+    {
+      "n": 0,
+      "title": "Setup Development Environment",
+      "goal": "Install and configure necessary tools and set up a development environment."
+    },
+    {
+      "n": 1,
+      "title": "Learn Python Basics",
+      "goal": "Understand Python syntax, data types, and basic control structures."
+    },
+    {
+      "n": 2,
+      "title": "Build Simple CLI Tools",
+      "goal": "Create command-line tools to practice Python basics."
+    },
+    {
+      "n": 3,
+      "title": "Learn Object-Oriented Programming",
+      "goal": "Understand OOP concepts and how to apply them in Python."
+    },
+    {
+      "n": 4,
+      "title": "Develop a Portfolio Project",
+      "goal": "Build a more complex CLI tool as a portfolio project."
+    },
+    {
+      "n": 5,
+      "title": "Learn Career Preparation",
+      "goal": "Prepare for job applications, interviews, and CV optimization."
+    }
+  ],
+  "targetRole": "Junior Python developer",
+  "tasks": [
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 0,
+      "title": "Install Python and IDE",
+      "type": "setup",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "VS Code is a popular IDE for Python development and has excellent support.",
+      "steps": [
+        "Install Python from https://www.python.org/downloads/",
+        "Install Visual Studio Code from https://code.visualstudio.com/",
+        "Install the Python extension for VS Code"
+      ],
+      "resources": [
+        {
+          "t": "Python",
+          "u": "https://www.python.org/downloads/"
+        },
+        {
+          "t": "Visual Studio Code",
+          "u": "https://code.visualstudio.com/"
+        }
+      ],
+      "doneWhen": "Python and VS Code are installed, and the Python extension is active.",
+      "check": "Create a new Python file and run a simple print statement.",
+      "updatedAt": "2026-10-22",
+      "updateNote": "",
+      "lessonKind": "reading"
+    },
+    {
+      "order": 2,
+      "source": "generator",
+      "phase": 0,
+      "title": "Install Command Line Tools",
+      "type": "setup",
+      "hours": 1,
+      "editor": "Terminal",
+      "why": "Terminal tools are essential for development and testing.",
+      "steps": [
+        "Install Git from https://git-scm.com/downloads",
+        "Install Poetry from https://python-poetry.org/docs/"
+      ],
+      "resources": [
+        {
+          "t": "Git",
+          "u": "https://git-scm.com/downloads"
+        },
+        {
+          "t": "Poetry",
+          "u": "https://python-poetry.org/docs"
+        }
+      ],
+      "doneWhen": "Git and Poetry are installed.",
+      "check": "Test installing a package with Poetry.",
+      "updatedAt": "2026-10-22",
+      "updateNote": "",
+      "lessonKind": "reading"
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 1,
+      "title": "Learn Python Syntax",
+      "type": "learn",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "Syntax is the foundation of any programming language.",
+      "steps": [
+        "Read the Python documentation on syntax at https://docs.python.org/3/tutorial/index.html",
+        "Write and run a simple Python script with print statements."
+      ],
+      "resources": [
+        {
+          "t": "Python Syntax",
+          "u": "https://docs.python.org/3/tutorial/index.html"
+        }
+      ],
+      "doneWhen": "A simple Python script is written and runs.",
+      "check": "A test script is written and runs without errors.",
+      "updatedAt": "2026-10-22",
+      "updateNote": "",
+      "lessonKind": "coding"
+    },
+    {
+      "order": 2,
+      "source": "generator",
+      "phase": 1,
+      "title": "Data Types and Variables",
+      "type": "learn",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "Understanding data types and variables is crucial for any Python project.",
+      "steps": [
+        "Read about data types and variables in the Python documentation at https://docs.python.org/3/tutorial/datastructures.html",
+        "Practice declaring and using variables and different data types."
+      ],
+      "resources": [
+        {
+          "t": "Python Data Types",
+          "u": "https://docs.python.org/3/tutorial/datastructures.html"
+        }
+      ],
+      "doneWhen": "Variables and data types are declared and used in a script.",
+      "check": "A script demonstrating variable and data type usage runs without errors.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 3,
+      "source": "generator",
+      "phase": 1,
+      "title": "Control Structures",
+      "type": "learn",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "Control structures are essential for logic and flow in programs.",
+      "steps": [
+        "Read about control structures in the Python documentation at https://docs.python.org/3/tutorial/controlflow.html",
+        "Practice writing and running simple control structures such as if-else and loops."
+      ],
+      "resources": [
+        {
+          "t": "Python Control Flow",
+          "u": "https://docs.python.org/3/tutorial/controlflow.html"
+        }
+      ],
+      "doneWhen": "Control structures are implemented in a script.",
+      "check": "A script with control structures runs as expected.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 2,
+      "title": "Build a Simple CLI Tool: Greeting",
+      "type": "build",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "Practicing with a simple tool helps build confidence.",
+      "steps": [
+        "Create a new Python file and write a script that prints 'Hello, World!' to the terminal.",
+        "Test the script in the terminal."
+      ],
+      "resources": [
+        {
+          "t": "Python Greeting Script",
+          "u": "https://www.w3schools.com/python/python_howto_write_a_script.asp"
+        }
+      ],
+      "doneWhen": "A 'Hello, World!' script runs successfully.",
+      "check": "The script prints 'Hello, World!' to the terminal.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 2,
+      "source": "generator",
+      "phase": 2,
+      "title": "Build a Simple CLI Tool: Calculator",
+      "type": "build",
+      "hours": 3,
+      "editor": "VS Code",
+      "why": "Building a calculator reinforces basic operations and user input handling.",
+      "steps": [
+        "Create a new Python file and write a script that performs basic math operations (addition, subtraction, multiplication, division).",
+        "Test the script in the terminal with various inputs."
+      ],
+      "resources": [
+        {
+          "t": "Python Math Operations",
+          "u": "https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming"
+        }
+      ],
+      "doneWhen": "A calculator script runs successfully with various inputs.",
+      "check": "The calculator script works for addition, subtraction, multiplication, and division.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 3,
+      "title": "Learn Object-Oriented Programming",
+      "type": "learn",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "OOP is a fundamental concept in Python and most development.",
+      "steps": [
+        "Read about OOP in the Python documentation at https://docs.python.org/3/tutorial/classes.html",
+        "Write a simple class with attributes and methods."
+      ],
+      "resources": [
+        {
+          "t": "Python OOP",
+          "u": "https://docs.python.org/3/tutorial/classes.html"
+        }
+      ],
+      "doneWhen": "A simple class is implemented with attributes and methods.",
+      "check": "A class is created and can be instantiated and used.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 2,
+      "source": "generator",
+      "phase": 3,
+      "title": "Build a CLI Tool: Simple Database",
+      "type": "build",
+      "hours": 3,
+      "editor": "VS Code",
+      "why": "Combining OOP with CLI tools can demonstrate practical application.",
+      "steps": [
+        "Create a class for a simple database with methods to add, delete, and search for entries.",
+        "Build a CLI tool that uses this database class."
+      ],
+      "resources": [
+        {
+          "t": "Python OOP for CLI",
+          "u": "https://realpython.com/python-command-line-utilities/"
+        }
+      ],
+      "doneWhen": "A simple database tool with OOP is built and runs.",
+      "check": "The CLI tool can add, delete, and search for entries in the database.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 4,
+      "title": "Develop a Portfolio Project: File Manager",
+      "type": "build",
+      "hours": 5,
+      "editor": "VS Code",
+      "why": "A portfolio project showcases practical skills and application.",
+      "steps": [
+        "Design a file manager CLI tool with features like listing files, creating directories, and copying files.",
+        "Implement the design in Python.",
+        "Test the tool thoroughly."
+      ],
+      "resources": [
+        {
+          "t": "Python File Management",
+          "u": "https://realpython.com/command-line-interface/"
+        }
+      ],
+      "doneWhen": "A file manager CLI tool is built and functions correctly.",
+      "check": "The file manager can list, create, and copy files and directories.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 1,
+      "source": "generator",
+      "phase": 5,
+      "title": "Prepare CV and Portfolio",
+      "type": "career",
+      "hours": 2,
+      "editor": "Browser",
+      "why": "Tailoring a CV and portfolio to the target role is crucial.",
+      "steps": [
+        "Create a resume highlighting skills learned and the portfolio project.",
+        "Publish the portfolio project on GitHub."
+      ],
+      "resources": [
+        {
+          "t": "GitHub",
+          "u": "https://github.com/"
+        }
+      ],
+      "doneWhen": "A resume and GitHub portfolio are prepared and published.",
+      "check": "The portfolio project is live on GitHub and referenced in the resume.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 2,
+      "source": "generator",
+      "phase": 5,
+      "title": "Practice Live Coding",
+      "type": "practice",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "Live coding is often used in interviews to assess real-time problem-solving.",
+      "steps": [
+        "Practice solving coding problems in a live coding environment like LeetCode or HackerRank.",
+        "Record a live coding session demonstrating problem-solving skills."
+      ],
+      "resources": [
+        {
+          "t": "LeetCode",
+          "u": "https://leetcode.com/"
+        },
+        {
+          "t": "HackerRank",
+          "u": "https://www.hackerrank.com/"
+        }
+      ],
+      "doneWhen": "Coding problems are solved in a live coding environment and a recording is made.",
+      "check": "At least 5 problems are solved and a live coding session is recorded.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 3,
+      "source": "generator",
+      "phase": 5,
+      "title": "Practice System Design",
+      "type": "practice",
+      "hours": 2,
+      "editor": "Browser",
+      "why": "System design questions are common in technical interviews.",
+      "steps": [
+        "Read and practice system design problems and solutions.",
+        "Create a system design document for a small application."
+      ],
+      "resources": [
+        {
+          "t": "System Design Interview",
+          "u": "https://www.educative.io/courses/grokking-the-system-design-interview"
+        },
+        {
+          "t": "System Design",
+          "u": "https://www.loom.com/share/96f5e80f453f4a61b4d58e819710d191"
+        }
+      ],
+      "doneWhen": "A system design document is created and shared.",
+      "check": "A system design document for a CLI tool is completed.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 4,
+      "source": "generator",
+      "phase": 5,
+      "title": "Practice Take-Home Coding",
+      "type": "practice",
+      "hours": 2,
+      "editor": "VS Code",
+      "why": "Take-home coding challenges assess the candidate's ability to work independently.",
+      "steps": [
+        "Solve a take-home coding challenge from a past interview question.",
+        "Submit the solution with a brief explanation."
+      ],
+      "resources": [
+        {
+          "t": "Take-Home Coding",
+          "u": "https://www.interviewquery.com/top-take-home-challenges"
+        }
+      ],
+      "doneWhen": "A take-home coding challenge is solved and submitted.",
+      "check": "A solution is submitted for a take-home coding challenge.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    },
+    {
+      "order": 5,
+      "source": "generator",
+      "phase": 5,
+      "title": "Apply for Jobs",
+      "type": "career",
+      "hours": 1,
+      "editor": "Browser",
+      "why": "Finding the right opportunities is key.",
+      "steps": [
+        "Search for Junior Python Developer roles on popular job boards.",
+        "Apply to selected positions with the resume and portfolio."
+      ],
+      "resources": [
+        {
+          "t": "Indeed",
+          "u": "https://www.indeed.com/"
+        },
+        {
+          "t": "LinkedIn",
+          "u": "https://www.linkedin.com/"
+        }
+      ],
+      "doneWhen": "Job applications are submitted.",
+      "check": "Applications are submitted to at least 3 Junior Python Developer roles.",
+      "updatedAt": "2026-10-22",
+      "updateNote": ""
+    }
+  ]
+}
